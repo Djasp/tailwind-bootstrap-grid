@@ -1,6 +1,6 @@
 {
-  "name": "tailwind-bootstrap-grid",
-  "version": "4.0.0",
+  "name": "tailwind-v3-bootstrap-grid",
+  "version": "0.3.0",
   "description": "Tailwind CSS plugin to generate Bootstrap flexbox grid system.",
   "keywords": [
     "bootstrap",
@@ -11,16 +11,8 @@
     "rtl",
     "tailwindcss"
   ],
-  "homepage": "https://github.com/karolis-sh/tailwind-bootstrap-grid#readme",
-  "bugs": {
-    "url": "https://github.com/karolis-sh/tailwind-bootstrap-grid/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/karolis-sh/tailwind-bootstrap-grid.git"
-  },
   "license": "MIT",
-  "author": "Karolis Šarapnickis",
+  "author": "Jasper Luiken, forked from Karolis Šarapnickis",
   "main": "lib/index.js",
   "scripts": {
     "build": "run-p build:*",
@@ -97,7 +89,7 @@
     "webpack-dev-server": "^3.11.2"
   },
   "peerDependencies": {
-    "tailwindcss": "^2"
+    "tailwindcss": "^3"
   },
   "volta": {
     "node": "14.17.3",
