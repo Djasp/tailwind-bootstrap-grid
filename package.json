@@ -11,6 +11,10 @@
     "rtl",
     "tailwindcss"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djasp/tailwind-bootstrap-grid.git"
+  },
   "license": "MIT",
   "author": "Jasper Luiken, forked from Karolis Šarapnickis",
   "main": "lib/index.js",
