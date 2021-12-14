@@ -1,7 +1,7 @@
 {
-  "name": "tailwind-v3-bootstrap-grid",
-  "version": "0.3.0",
-  "description": "Tailwind CSS plugin to generate Bootstrap flexbox grid system.",
+  "name": "@djasp/tailwind-bootstrap-grid",
+  "version": "5.0.0",
+  "description": "Tailwind CSS v3 plugin to generate Bootstrap flexbox grid system.",
   "keywords": [
     "bootstrap",
     "flexbox",
@@ -94,6 +94,9 @@
   },
   "peerDependencies": {
     "tailwindcss": "^3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "volta": {
     "node": "14.17.3",
